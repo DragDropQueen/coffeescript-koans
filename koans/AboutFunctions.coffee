@@ -28,7 +28,7 @@ describe 'About Functions', ->
 
     parentfunction()().should.equal FILL_ME_IN
 
-  xit 'should use lexical scoping to synthesise functions', ->
+  xit 'should use lexical scoping to synthesize functions', ->
   # This is a form of partial application
     makeIncreaseByFunction = (increaseByAmount) ->
       (numberToIncrease) -> numberToIncrease + increaseByAmount
